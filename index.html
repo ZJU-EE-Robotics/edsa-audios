@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charvctk_set="UTF-8">
+    <title>Demonstration for audios</title>
+</head>
+
+<body>
+    <p><i>This website is used to demonstrate some experimental audios of "Efficient Decoding Self-Attention for Autoregressive Speech Synthesis".</i></p>
+    <div>
+        <br>
+        <h3> Mandarin Audios For In-Domain Tests </h3>
+        <h3> </h3>
+        <p><i>“天气转好利于春运交通.”</i></p>
+        <table>
+            <tr>
+                <td> Ground-Truth </td>
+                <td><audio controls>
+                        <source src="cn/GT_01.wav">
+                    </audio></td>
+            </tr>
+
+            <tr>
+                <td> Tacotron2 </td>
+                <td><audio controls>
+                        <source src="cn/Tacotron2_01.wav">
+                    </audio></td>
+
+                <td> Transformer(Baseline) </td>
+                <td><audio controls>
+                        <source src="cn/Transformer_01.wav">
+                    </audio></td>
+
+                <td> Our Model </td>
+                <td><audio controls>
+                        <source src="cn/edsa_01.wav">
+                    </audio></td>
+            </tr>
+        </table>
+
+        <p><i>“该案在法律上的手段已经穷尽,暂无法执行.”</i></p>
+        <table>
+            <tr>
+                <td> Ground-Truth </td>
+                <td><audio controls>
+                        <source src="cn/GT_02.wav">
+                    </audio></td>
+            </tr>
+
+            <tr>
+                <td> Tacotron2 </td>
+                <td><audio controls>
+                        <source src="cn/Tacotron2_02.wav">
+                    </audio></td>
+
+                <td> Transformer(Baseline) </td>
+                <td><audio controls>
+                        <source src="cn/Transformer_02.wav">
+                    </audio></td>
+
+                <td> Our Model </td>
+                <td><audio controls>
+                        <source src="cn/edsa_02.wav">
+                    </audio></td>
+            </tr>
+        </table>
+
+        <p><i>“但是,现实中,最终一般都难以获得宽裕的赔偿.”</i></p>
+        <table>
+            <tr>
+                <td> Ground-Truth </td>
+                <td><audio controls>
+                        <source src="cn/GT_03.wav">
+                    </audio></td>
+            </tr>
+
+            <tr>
+                <td> Tacotron2 </td>
+                <td><audio controls>
+                        <source src="cn/Tacotron2_03.wav">
+                    </audio></td>
+
+                <td> Transformer(Baseline) </td>
+                <td><audio controls>
+                        <source src="cn/Transformer_03.wav">
+                    </audio></td>
+
+                <td> Our Model </td>
+                <td><audio controls>
+                        <source src="cn/edsa_03.wav">
+                    </audio></td>
+            </tr>
+        </table>
+
+        <p><i>“好在,他出演了'米尔克'.”</i></p>
+        <table>
+            <tr>
+                <td> Ground-Truth </td>
+                <td><audio controls>
+                        <source src="cn/GT_04.wav">
+                    </audio></td>
+            </tr>
+
+            <tr>
+                <td> Tacotron2 </td>
+                <td><audio controls>
+                        <source src="cn/Tacotron2_04.wav">
+                    </audio></td>
+
+                <td> Transformer(Baseline) </td>
+                <td><audio controls>
+                        <source src="cn/Transformer_04.wav">
+                    </audio></td>
+
+                <td> Our Model </td>
+                <td><audio controls>
+                        <source src="cn/edsa_04.wav">
+                    </audio></td>
+            </tr>
+        </table>
+
+        <p><i>“渤海交汇处,是船舶进出渤海湾的第二条交通要道.”</i></p>
+        <table>
+            <tr>
+                <td> Ground-Truth </td>
+                <td><audio controls>
+                        <source src="cn/GT_05.wav">
+                    </audio></td>
+            </tr>
+
+            <tr>
+                <td> Tacotron2 </td>
+                <td><audio controls>
+                        <source src="cn/Tacotron2_05.wav">
+                    </audio></td>
+
+                <td> Transformer(Baseline) </td>
+                <td><audio controls>
+                        <source src="cn/Tacotron2_05.wav">
+                    </audio></td>
+
+                <td> Our Model </td>
+                <td><audio controls>
+                        <source src="cn/edsa_05.wav">
+                    </audio></td>
+            </tr>
+        </table>
+
+        <p><i>“随后,倪某怂恿张倩一起把'宝物'买下,再转手卖掉赚钱.”</i></p>
+        <table>
+            <tr>
+                <td> Ground-Truth </td>
+                <td><audio controls>
+                        <source src="cn/GT_06.wav">
+                    </audio></td>
+            </tr>
+
+            <tr>
+                <td> Tacotron2 </td>
+                <td><audio controls>
+                        <source src="cn/Tacotron2_06.wav">
+                    </audio></td>
+
+                <td> Transformer(Baseline) </td>
+                <td><audio controls>
+                        <source src="cn/Tacotron2_06.wav">
+                    </audio></td>
+
+                <td> Our Model </td>
+                <td><audio controls>
+                        <source src="cn/edsa_06.wav">
+                    </audio></td>
+            </tr>
+        </table>
+    </div>
+
+
+    <div>
+        <br>
+        <h3> English Audios For In-Domain Tests </h3>
+        <h3> </h3>
+        <p><i>“Oswald's palmprint on the bottom of the paper bag indicated, of course, that he had handled the bag.”</i></p>
+        <table>
+            <tr>
+                <td> Ground-Truth </td>
+                <td><audio controls>
+                        <source src="en/GT_01.wav">
+                    </audio></td>
+            </tr>
+
+            <tr>
+                <td> Tacotron2 </td>
+                <td><audio controls>
+                        <source src="en/Tacotron2_01.wav">
+                    </audio></td>
+
+                <td> Transformer(Baseline) </td>
+                <td><audio controls>
+                        <source src="en/Transformer_01.wav">
+                    </audio></td>
+
+                <td> Our Model </td>
+                <td><audio controls>
+                        <source src="en/edsa_01.wav">
+                    </audio></td>
+            </tr>
+        </table>
+
+        <p><i>“Frazier met Oswald at the kitchen door and together they walked to the car.”</i></p>
+        <table>
+            <tr>
+                <td> Ground-Truth </td>
+                <td><audio controls>
+                        <source src="en/GT_02.wav">
+                    </audio></td>
+            </tr>
+
+            <tr>
+                <td> Tacotron2 </td>
+                <td><audio controls>
+                        <source src="en/Tacotron2_02.wav">
+                    </audio></td>
+
+                <td> Transformer(Baseline) </td>
+                <td><audio controls>
+                        <source src="en/Transformer_02.wav">
+                    </audio></td>
+
+                <td> Our Model </td>
+                <td><audio controls>
+                        <source src="en/edsa_02.wav">
+                    </audio></td>
+            </tr>
+        </table>
+
+        <p><i>“the doctors observed that he had a heartbeat and was making some respiratory efforts.”</i></p>
+        <table>
+            <tr>
+                <td> Ground-Truth </td>
+                <td><audio controls>
+                        <source src="en/GT_03.wav">
+                    </audio></td>
+            </tr>
+
+            <tr>
+                <td> Tacotron2 </td>
+                <td><audio controls>
+                        <source src="en/Tacotron2_03.wav">
+                    </audio></td>
+
+                <td> Transformer(Baseline) </td>
+                <td><audio controls>
+                        <source src="en/Transformer_03.wav">
+                    </audio></td>
+
+                <td> Our Model </td>
+                <td><audio controls>
+                        <source src="en/edsa_03.wav">
+                    </audio></td>
+            </tr>
+        </table>
+
+        <p><i>“with morbid curiosity to scan his features and watch his demeanor through the shifting, nicely-balanced phases of his protracted trial.”</i></p>
+        <table>
+            <tr>
+                <td> Ground-Truth </td>
+                <td><audio controls>
+                        <source src="en/GT_04.wav">
+                    </audio></td>
+            </tr>
+
+            <tr>
+                <td> Tacotron2 </td>
+                <td><audio controls>
+                        <source src="en/Tacotron2_04.wav">
+                    </audio></td>
+
+                <td> Transformer(Baseline) </td>
+                <td><audio controls>
+                        <source src="en/Transformer_04.wav">
+                    </audio></td>
+
+                <td> Our Model </td>
+                <td><audio controls>
+                        <source src="en/edsa_04.wav">
+                    </audio></td>
+            </tr>
+        </table>
+
+        <p><i>“whose summit reached into the sky as far, perhaps, as the tallest of the modern buildings.”</i></p>
+        <table>
+            <tr>
+                <td> Ground-Truth </td>
+                <td><audio controls>
+                        <source src="en/GT_05.wav">
+                    </audio></td>
+            </tr>
+
+            <tr>
+                <td> Tacotron2 </td>
+                <td><audio controls>
+                        <source src="en/Tacotron2_05.wav">
+                    </audio></td>
+
+                <td> Transformer(Baseline) </td>
+                <td><audio controls>
+                        <source src="en/Tacotron2_05.wav">
+                    </audio></td>
+
+                <td> Our Model </td>
+                <td><audio controls>
+                        <source src="en/edsa_05.wav">
+                    </audio></td>
+            </tr>
+        </table>
+
+        <p><i>“Industrial labor had also been introduced with satisfactory results.”</i></p>
+        <table>
+            <tr>
+                <td> Ground-Truth </td>
+                <td><audio controls>
+                        <source src="en/GT_06.wav">
+                    </audio></td>
+            </tr>
+
+            <tr>
+                <td> Tacotron2 </td>
+                <td><audio controls>
+                        <source src="en/Tacotron2_06.wav">
+                    </audio></td>
+
+                <td> Transformer(Baseline) </td>
+                <td><audio controls>
+                        <source src="en/Tacotron2_06.wav">
+                    </audio></td>
+
+                <td> Our Model </td>
+                <td><audio controls>
+                        <source src="en/edsa_06.wav">
+                    </audio></td>
+            </tr>
+        </table>
+    </div>
+
+
+    <div>
+        <br>
+        <h3> Mandarin Audios For Out-Domain Tests </h3>
+        <h3> </h3>
+        <p><i>“江志铭转述,扁引用'坛经''毁誉不动,哀乐不生',代表目前心境.”</i></p>
+        <table>
+            <tr>
+                <td> Transformer(Baseline) </td>
+                <td><audio controls>
+                        <source src="cn/baseline_long_01.wav">
+                    </audio></td>
+
+                <td> Our Model </td>
+                <td><audio controls>
+                        <source src="cn/edsa_long_01.wav">
+                    </audio></td>
+            </tr>
+        </table>
+
+        <p><i>“人民解放军在平叛过程中军纪严明,得到广大僧俗人士的衷心拥护.”</i></p>
+        <table>
+            <tr>
+                <td> Transformer(Baseline) </td>
+                <td><audio controls>
+                        <source src="cn/baseline_long_02.wav">
+                    </audio></td>
+
+                <td> Our Model </td>
+                <td><audio controls>
+                        <source src="cn/edsa_long_02.wav">
+                    </audio></td>
+            </tr>
+        </table>
+
+        <p><i>“爱之火热,已经到了'搜神记'里韩凭夫妇和'长恨歌'里连理枝的境界.”</i></p>
+        <table>
+            <tr>
+                <td> Transformer(Baseline) </td>
+                <td><audio controls>
+                        <source src="cn/baseline_long_03.wav">
+                    </audio></td>
+
+                <td> Our Model </td>
+                <td><audio controls>
+                        <source src="cn/edsa_long_03.wav">
+                    </audio></td>
+            </tr>
+        </table>
+
+        <p><i>“此前,他因徒手攀爬上陡峰,城墙,巨型烟囱等照片,在网上走红.”</i></p>
+        <table>
+            <tr>
+                <td> Transformer(Baseline) </td>
+                <td><audio controls>
+                        <source src="cn/baseline_long_04.wav">
+                    </audio></td>
+
+                <td> Our Model </td>
+                <td><audio controls>
+                        <source src="cn/edsa_long_04.wav">
+                    </audio></td>
+            </tr>
+        </table>
+
+        <p><i>“山中那迷蒙的小径,像迷走神经一样蜿蜒进蓊郁的果林,消失不见.”</i></p>
+        <table>
+            <tr>
+                <td> Transformer(Baseline) </td>
+                <td><audio controls>
+                        <source src="cn/baseline_long_05.wav">
+                    </audio></td>
+
+                <td> Our Model </td>
+                <td><audio controls>
+                        <source src="cn/edsa_long_05.wav">
+                    </audio></td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <br>
+        <h3> English Audios For Out-Domain Tests </h3>
+        <h3> </h3>
+        <p><i>“but as the plan was "confessedly experimental, for the benefit of the country generally, the amount for which the city should be responsible should be distinctly limited.”</i></p>
+        <table>
+            <tr>
+                <td> Transformer(Baseline) </td>
+                <td><audio controls>
+                        <source src="en/baseline_long_01.wav">
+                    </audio></td>
+
+                <td> Our Model </td>
+                <td><audio controls>
+                        <source src="en/edsa_long_01.wav">
+                    </audio></td>
+            </tr>
+        </table>
+
+        <p><i>“The agents on the front of the running boards had directions to move immediately to positions just to the rear of the President and Mrs. Kennedy when the President's car slowed.”</i></p>
+        <table>
+            <tr>
+                <td> Transformer(Baseline) </td>
+                <td><audio controls>
+                        <source src="en/baseline_long_02.wav">
+                    </audio></td>
+
+                <td> Our Model </td>
+                <td><audio controls>
+                        <source src="en/edsa_long_02.wav">
+                    </audio></td>
+            </tr>
+        </table>
+
+        <p><i>“It was also suggested that it would take a substantial period of time for the Secret Service to build up the experience and skills necessary to meet the problem.”</i></p>
+        <table>
+            <tr>
+                <td> Transformer(Baseline) </td>
+                <td><audio controls>
+                        <source src="en/baseline_long_03.wav">
+                    </audio></td>
+
+                <td> Our Model </td>
+                <td><audio controls>
+                        <source src="en/edsa_long_03.wav">
+                    </audio></td>
+            </tr>
+        </table>
+
+        <p><i>“I shall not hesitate to ask Parliament for powers to compel them to make the necessary alterations, for it is not to be endured that these local jurisdictions should remain.”</i></p>
+        <table>
+            <tr>
+                <td> Transformer(Baseline) </td>
+                <td><audio controls>
+                        <source src="en/baseline_long_04.wav">
+                    </audio></td>
+
+                <td> Our Model </td>
+                <td><audio controls>
+                        <source src="en/edsa_long_04.wav">
+                    </audio></td>
+            </tr>
+        </table>
+
+        <p><i>“he did not want his landlady to know his real name because she might read in the paper of the fact that he had been in Russia and that he had been questioned, end quote.”</i></p>
+        <table>
+            <tr>
+                <td> Transformer(Baseline) </td>
+                <td><audio controls>
+                        <source src="en/baseline_long_05.wav">
+                    </audio></td>
+
+                <td> Our Model </td>
+                <td><audio controls>
+                        <source src="en/edsa_long_05.wav">
+                    </audio></td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>
